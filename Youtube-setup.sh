@@ -49,4 +49,5 @@ rm -rf Youtube-dl
 echo -e ''
 echo -e ''
 echo -e '\033[92mThanks For Using                     \033[34mCreated by: Al-Tasin'
- 
+cd
+rm Youtube-setup.sh
