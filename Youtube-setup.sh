@@ -17,10 +17,10 @@ echo  ''
 sleep 2
 echo -e ''
 echo -e '\033[94mGive Storage Purmition'
-termux-setup-storage -y
+termux-setup-storage 
 echo -e ''
 echo -e '\033[93mInstalling Youtube-dl'
-pip install youtube-dl -y
+pip install youtube-dl 
 echo -e ''
 echo -e ''
 echo -e '\033[93mInstalling Python'
@@ -39,15 +39,12 @@ mkdir Youtube
 cd
 
 echo -e '\033[92mRequirements Installing'
-git clone https://github.com/Tasin-coder/Youtube-dl.git
-
-cd Youtube-dl
-mv termux-url-opener $HOME/bin
-mv config $HOME/.config/youtube-dl
+cd .config/youtube-dl
+wget https://raw.githubusercontent.com/Tasin-coder/Youtube-dl/master/config
 cd
-rm -rf Youtube-dl
+cd bin
+wget https://raw.githubusercontent.com/Tasin-coder/Youtube-dl/master/termux-url-opener
 echo -e ''
 echo -e ''
 echo -e '\033[92mThanks For Using                     \033[34mCreated by: Al-Tasin'
 cd
-rm Youtube-setup.sh
