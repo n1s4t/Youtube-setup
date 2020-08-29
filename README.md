@@ -1,5 +1,5 @@
 # Download Youtube Videos Free
-## How to use
+* How to use
 ```
 $ bash Youtube-setup.sh
 ```
