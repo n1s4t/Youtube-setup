@@ -3,7 +3,7 @@
 
 ### [Follow Instagram](https://www.instagram.com/altasin2003/)
 
-### How to use
+* How to use
 ```
 Go to any youtube video click share and use Termux give your quality and Download
 ```
