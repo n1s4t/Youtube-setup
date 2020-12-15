@@ -18,14 +18,15 @@ sleep 2
 echo -e ''
 echo -e '\033[94mGive Storage Purmition'
 termux-setup-storage 
-echo -e ''
-echo -e '\033[93mInstalling Youtube-dl'
-pip install youtube-dl 
+echo -e '' 
 echo -e ''
 echo -e ''
 echo -e '\033[93mInstalling Python'
 pkg install python -y
 echo -e ''
+echo -e ''
+echo -e '\033[93mInstalling Youtube-dl'
+pip install youtube-dl
 echo -e ''
 echo -e '\033[93mWorking'
 mkdir .config
