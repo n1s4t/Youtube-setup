@@ -19,18 +19,18 @@ echo -e '\033[94mGive Storage Purmition'
 termux-setup-storage 
 echo -e ''
 echo -e '\033[93mPkg Updating'
-apt update -y
+apt update -y > /dev/null 2>&1
 echo -e ''
 echo -e '\033[93mPkg Upgrading'
-apt upgrade -y
+apt upgrade -y > /dev/null 2>&1
 echo -e ''
 echo -e ''
 echo -e '\033[93mInstalling Python'
-pkg install python -y
+pkg install python -y > /dev/null 2>&1
 echo -e ''
 echo -e ''
 echo -e '\033[93mInstalling Youtube-dl'
-pip install youtube-dl
+pip install youtube-dl > /dev/null 2>&1
 echo -e ''
 echo -e '\033[93mWorking'
 mkdir .config
@@ -41,14 +41,10 @@ mkdir bin
 cd
 cd /sdcard
 mkdir Youtube
-cd
-
+pth="$(pwd)"
 echo -e '\033[92mRequirements Installing'
-cd .config/youtube-dl
-wget https://raw.githubusercontent.com/Tasin-coder/Youtube-dl/master/config -q
-cd
-cd bin
-wget https://raw.githubusercontent.com/Tasin-coder/Youtube-dl/master/termux-url-opener -q
+wget https://raw.githubusercontent.com/Tasin-coder/Youtube-dl/master/config -P $pth/.config/youtube-dl -q
+wget https://raw.githubusercontent.com/Tasin-coder/Youtube-dl/master/termux-url-opener -P $pth/bin -q
 echo -e ''
 echo -e ''
 echo -e '\033[92mThanks For Using                     \033[34mCreated by: Al-Tasin'
