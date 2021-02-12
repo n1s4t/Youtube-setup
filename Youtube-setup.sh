@@ -45,10 +45,10 @@ cd
 
 echo -e '\033[92mRequirements Installing'
 cd .config/youtube-dl
-wget https://raw.githubusercontent.com/Tasin-coder/Youtube-dl/master/config
+wget https://raw.githubusercontent.com/Tasin-coder/Youtube-dl/master/config -q
 cd
 cd bin
-wget https://raw.githubusercontent.com/Tasin-coder/Youtube-dl/master/termux-url-opener
+wget https://raw.githubusercontent.com/Tasin-coder/Youtube-dl/master/termux-url-opener -q
 echo -e ''
 echo -e ''
 echo -e '\033[92mThanks For Using                     \033[34mCreated by: Al-Tasin'
