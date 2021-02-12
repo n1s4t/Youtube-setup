@@ -25,8 +25,11 @@ echo -e '\033[93mPkg Upgrading'
 apt upgrade -y > /dev/null 2>&1
 echo -e ''
 echo -e ''
+echo -e '\033[93mInstalling Wget'
+apt --assume-yes install wget > /dev/null 2>&1
+echo -e ''
 echo -e '\033[93mInstalling Python'
-pkg install python -y > /dev/null 2>&1
+apt --assume-yes install python > /dev/null 2>&1
 echo -e ''
 echo -e ''
 echo -e '\033[93mInstalling Youtube-dl'
