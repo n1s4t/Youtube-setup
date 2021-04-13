@@ -44,6 +44,7 @@ mkdir bin
 cd
 cd /sdcard
 mkdir Youtube
+cd
 pth="$(pwd)"
 echo -e '\033[92mRequirements Installing'
 wget https://raw.githubusercontent.com/Tasin-coder/Youtube-dl/master/config -P $pth/.config/youtube-dl -q
