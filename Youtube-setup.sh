@@ -15,7 +15,7 @@ echo -e '\033[92m• \033[0m GitHub \033[91m :\033[36mhttps://www.github.com/n1s
 echo -e '\033[92m• \033[0mTelegram \033[91m:\033[36mhttps://www.t.me/n1s4t'
 echo  ''
 sleep 3
-echo -e '\033[94mGive Storage Permission
+echo -e '\033[94mGive Storage Permission'
 termux-setup-storage 
 echo -e ''
 echo -e '\033[93mPkg Updating'
