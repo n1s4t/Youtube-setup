@@ -12,7 +12,7 @@ echo -e '\033[00m'
 echo -e '\033[34mCreated by: Al-Tasin '
 echo  ''  
 echo -e '\033[92m• \033[0m GitHub \033[91m :\033[36mhttps://www.github.com/n1s4t'
-echo -e '\033[92m• \033[0mFacebook \033[91m:\033[36mhttps://www.facebook.com/adib.tasin.16'
+echo -e '\033[92m• \033[0mTelegram \033[91m:\033[36mhttps://www.facebook.com/n1s4t'
 echo  ''
 sleep 3
 echo -e '\033[94mGive Storage Permission
