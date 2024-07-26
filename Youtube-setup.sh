@@ -47,8 +47,8 @@ mkdir Youtube
 cd
 pth="$(pwd)"
 echo -e '\033[92mRequirements Installing'
-wget https://raw.githubusercontent.com/Tasin-coder/Youtube-dl/master/config -P $pth/.config/youtube-dl -q
-wget https://raw.githubusercontent.com/Tasin-coder/Youtube-dl/master/termux-url-opener -P $pth/bin -q
+wget https://raw.githubusercontent.com/n1s4t/Youtube-dl/master/config -P $pth/.config/youtube-dl -q
+wget https://raw.githubusercontent.com/n1s4t/Youtube-dl/master/termux-url-opener -P $pth/bin -q
 echo -e ''
 echo -e ''
 echo -e '\033[92mThanks For Using                     \033[34mCreated by: Al-Tasin'
