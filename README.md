@@ -1,7 +1,7 @@
 # Download Youtube Videos Free
-> ### [Follow Facebook](https://www.facebook.com/adib.tasin.16) 
+> ### [Telegram](https://www.t.me/n1s4t) 
 
-> ### [Follow Instagram](https://www.instagram.com/alt.asin2003/)
+> ### [Telegram Channel](https://www.t.me/sphinx007/)
 
 * How to use
 
